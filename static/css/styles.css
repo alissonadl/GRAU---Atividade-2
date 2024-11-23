@@ -1,0 +1,54 @@
+body {
+    background-image: url('/static/imagens/galaxia.jpg');  /* Caminho da imagem de fundo */
+    background-size: cover;   /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem de fundo */
+    background-attachment: fixed;  /* Deixa a imagem fixa ao rolar a página */
+    margin: 0;  /* Remove a margem padrão do body */
+    padding: 0;  /* Remove o padding padrão do body */
+    font-family: Arial, sans-serif;  /* Define a fonte padrão da página */
+}
+
+#divlogotipo {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* Estilo para a seção de produtos (canetas) */
+#produto {
+    width: 150px;          /* Largura das imagens dos produtos */
+    height: auto;          /* Mantém a proporção das imagens */
+    display: block;        /* Garante que as imagens sejam exibidas como blocos */
+    margin: 0 auto 10px;   /* Centraliza as imagens e adiciona espaço abaixo */
+}
+
+#descricao {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-left: 10%;          /* Adiciona margem à esquerda */
+    margin-right: 10%;         /* Adiciona margem à direita */
+}
+
+label {
+    display: block;        /* Faz o nome do produto aparecer abaixo da imagem */
+    text-align: center;    /* Centraliza o nome do produto */
+    font-size: 1.2rem;     /* Tamanho da fonte do nome do produto */
+    margin-top: 10px;      /* Espaço acima do nome do produto */
+}
+
+button {
+    display: block;        /* Faz o botão aparecer abaixo do nome do produto */
+    margin: 10px auto;     /* Centraliza o botão */
+    padding: 10px 20px;    /* Espaçamento interno do botão */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;          /* Cor do texto do botão */
+    border: none;          /* Remove a borda padrão */
+    cursor: pointer;      /* Muda o cursor para indicar interatividade */
+    font-size: 1rem;       /* Tamanho da fonte do botão */
+    border-radius: 5px;    /* Bordas arredondadas */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
